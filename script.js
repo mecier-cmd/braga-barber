@@ -63,58 +63,138 @@ const PRODUCTS = [
   {
     category: "Cabelo",
     name: "Ultra Tonic — Jaboque",
-    desc: "Creme tópico fortalecedor, com Baicapil™, para fortalecimento dos fios.",
+    desc: "Creme tópico fortalecedor dos fios, com Baicapil™ e óleo de rícino.",
     vol: "30ml",
     price: 125.0,
     img: "assets/ultra-tonic.jpg",
   },
   {
+    category: "Cabelo",
+    name: "Leave-in Finalizador — Jaboque",
+    desc: "Creme para pentear com ação anti-frizz, proteção térmica e hidratação.",
+    vol: "240ml",
+    price: 98.0,
+    img: "assets/leave-in.jpg",
+  },
+  {
+    category: "Cabelo",
+    name: "Condicionador — Jaboque",
+    desc: "Condicionador para barba, cabelo e bigode com hidratação profunda, brilho intenso e fortalecimento dos fios.",
+    vol: "220ml",
+    price: 55.0,
+    img: "assets/condicionador-jaboque.jpg",
+  },
+  {
+    category: "Cabelo",
+    name: "Shampoo 2 em 1 — Jaboque",
+    desc: "Shampoo 2 em 1 para barba, cabelo e bigode, com limpeza profunda, hidratação e fortalecimento dos fios.",
+    vol: "220ml",
+    price: 55.0,
+    img: "assets/shampoo-2-em-1-jaboque.jpg",
+  },
+  {
+    category: "Finalização",
+    name: "Pó Texturizador — Jaboque",
+    desc: "Pó texturizador com efeito matte, volume e textura instantânea para modelar os fios com fixação duradoura.",
+    vol: "5g",
+    price: 88.0,
+    img: "assets/po-texturizador-jaboque.jpg",
+  },
+  {
     category: "Finalização",
     name: "Pasta Nuvem — Jaboque",
-    desc: "Pasta de fixação média com efeito nuvem, sem álcool, para todos os tipos de cabelo.",
+    desc: "Pasta de fixação média com efeito nuvem, sem resíduos, para todos os tipos de cabelo.",
     vol: "80g",
-    price: 65.0,
+    price: 68.0,
     img: "assets/pasta-nuvem.jpg",
   },
   {
     category: "Finalização",
     name: "Pasta Classic — Jaboque",
-    desc: "Pasta Classic Jaboque para modelar e finalizar o penteado.",
+    desc: "Pasta modeladora de alta fixação com efeito brilho e óleos de rícino e argan.",
     vol: "80g",
-    price: 65.0,
+    price: 68.0,
     img: "assets/produto-pasta-classic.jpg",
   },
   {
     category: "Finalização",
     name: "Pasta Matte — Jaboque",
-    desc: "Pasta Matte Jaboque com efeito matte e acabamento sem brilho.",
+    desc: "Pasta de fixação máxima com efeito matte e acabamento sem resíduos.",
     vol: "80g",
-    price: 65.0,
+    price: 68.0,
     img: "assets/produto-pasta-matte.jpg",
+  },
+  {
+    category: "Facial",
+    name: "Esfoliante Facial — Jaboque",
+    desc: "Esfoliante facial para limpeza profunda, revitalização e hidratação da pele.",
+    vol: "100g",
+    price: 68.0,
+    img: "assets/esfoliante-facial.jpg",
+  },
+  {
+    category: "Facial",
+    name: "Espuma de Limpeza Facial — Jaboque",
+    desc: "Espuma para limpeza profunda e hidratação, com ação calmante com ácido hialurônico.",
+    vol: "150ml",
+    price: 78.0,
+    img: "assets/espuma-facial.jpg",
   },
   {
     category: "Barba",
     name: "Beard Oil — Jaboque",
-    desc: "Óleo para hidratar e recuperar a barba, especialmente barbas longas e ressecadas.",
+    desc: "Óleo para hidratar e recuperar a barba, com hidratação intensa e brilho natural.",
     vol: "30ml",
-    price: 75.0,
+    price: 80.0,
     img: "assets/beard-oil.jpg",
   },
   {
     category: "Barba",
     name: "Balm de Barba — Jaboque",
-    desc: "Balm hidratante de baixa oleosidade para o cuidado diário da barba.",
+    desc: "Balm hidratante de baixa oleosidade para hidratação, maciez e controle do frizz.",
     vol: "140ml",
-    price: 65.0,
+    price: 75.0,
     img: "assets/balm.jpg",
   },
   {
-    category: "Cabelo",
-    name: "Leave-in Finalizador — Jaboque",
-    desc: "Creme para pentear com ação anti-frizz e hidratação.",
-    vol: "240ml",
-    price: 95.0,
-    img: "assets/leave-in.jpg",
+    category: "Fragrâncias",
+    name: "Body Splash — Blue Essence",
+    desc: "Desodorante corporal com fragrância Blue Essence, inspirado no Bleu de Chanel.",
+    vol: "200ml",
+    price: 90.0,
+    img: "assets/body-splash-blue-essence.jpg",
+  },
+  {
+    category: "Fragrâncias",
+    name: "Body Splash — Imperial Venture",
+    desc: "Desodorante corporal com fragrância Imperial Venture, inspirado no Creed Aventus.",
+    vol: "200ml",
+    price: 90.0,
+    img: "assets/body-splash-imperial-venture.jpg",
+  },
+  {
+    category: "Fragrâncias",
+    name: "Body Splash — Essenza Pura",
+    desc: "Desodorante corporal com fragrância Essenza Pura, inspirado no Erba Pura.",
+    vol: "200ml",
+    price: 90.0,
+    img: "assets/body-splash-essenza-pura.jpg",
+  },
+  {
+    category: "Kits",
+    name: "Kit Essenza Pura — Body Splash + Hidratante",
+    desc: "Kit com Body Splash e hidratante corporal Essenza Pura para perfumar, hidratar e cuidar da pele.",
+    vol: "2 itens",
+    price: 125.0,
+    img: "assets/kit-essenza-pura.jpg",
+  },
+  {
+    category: "Kits",
+    name: "Kit Imperial Venture — Body Splash + Hidratante",
+    desc: "Kit com Body Splash e hidratante corporal Imperial Venture para perfumar, hidratar e cuidar da pele.",
+    vol: "2 itens",
+    price: 125.0,
+    img: "assets/kit-imperial-venture.jpg",
   },
 ];
 
@@ -168,7 +248,7 @@ function renderServices() {
    --------------------------------------------------------- */
 function renderProducts() {
   const grid = document.getElementById("productsGrid");
-  const categories = ["Cabelo", "Barba", "Finalização"];
+  const categories = ["Cabelo", "Barba", "Finalização", "Facial", "Fragrâncias", "Kits"];
 
   grid.innerHTML = categories.map((category) => {
     const items = PRODUCTS.filter((p) => p.category === category);
@@ -270,6 +350,195 @@ function initReveal() {
 }
 
 /* ---------------------------------------------------------
+   Avaliações
+   --------------------------------------------------------- */
+function isSupabaseConfigured() {
+  const config = window.BRAGA_SUPABASE;
+  return Boolean(
+    config &&
+    config.url &&
+    config.anonKey &&
+    !config.url.includes("COLE_AQUI") &&
+    !config.anonKey.includes("COLE_AQUI")
+  );
+}
+
+function starsMarkup(value) {
+  const rating = Math.max(0, Math.min(5, Math.round(Number(value) || 0)));
+  return "★".repeat(rating) + "☆".repeat(5 - rating);
+}
+
+function formatReviewDate(dateString) {
+  try {
+    return new Intl.DateTimeFormat("pt-BR", {
+      day: "2-digit",
+      month: "2-digit",
+      year: "numeric"
+    }).format(new Date(dateString));
+  } catch (_) {
+    return "";
+  }
+}
+
+function renderReviews(reviews) {
+  const list = document.getElementById("reviewsList");
+  const status = document.getElementById("reviewsStatus");
+  const average = document.getElementById("reviewsAverage");
+  const averageStars = document.getElementById("reviewsAverageStars");
+  const count = document.getElementById("reviewsCount");
+
+  if (!list || !average || !averageStars || !count) return;
+
+  if (!reviews.length) {
+    average.textContent = "—";
+    averageStars.textContent = "☆☆☆☆☆";
+    count.textContent = "Ainda não há avaliações";
+    list.innerHTML = '<div class="reviews__empty">Seja o primeiro cliente a deixar uma avaliação. 💈</div>';
+    if (status) status.textContent = "Nenhuma avaliação publicada ainda";
+    return;
+  }
+
+  const total = reviews.reduce((sum, review) => {
+    return sum + Number(review.service_rating) + Number(review.environment_rating) + Number(review.quality_rating);
+  }, 0);
+  const averageValue = total / (reviews.length * 3);
+
+  average.textContent = averageValue.toFixed(1).replace(".", ",");
+  averageStars.textContent = starsMarkup(averageValue);
+  count.textContent = `${reviews.length} ${reviews.length === 1 ? "avaliação" : "avaliações"}`;
+  if (status) status.textContent = `${reviews.length} ${reviews.length === 1 ? "avaliação publicada" : "avaliações publicadas"}`;
+
+  list.innerHTML = reviews.map((review) => {
+    const reviewAverage = (
+      (Number(review.service_rating) + Number(review.environment_rating) + Number(review.quality_rating)) / 3
+    );
+    const safeName = escapeHtml(review.name);
+    const safeComment = escapeHtml(review.comment);
+    const date = formatReviewDate(review.created_at);
+
+    return `
+      <article class="review-card">
+        <div class="review-card__top">
+          <div>
+            <h4>${safeName}</h4>
+            <div class="review-card__date">${date}</div>
+          </div>
+          <div class="review-card__rating" aria-label="Nota média ${reviewAverage.toFixed(1)} de 5">
+            <span>${starsMarkup(reviewAverage)}</span>
+            <strong>${reviewAverage.toFixed(1).replace(".", ",")}</strong>
+          </div>
+        </div>
+        <p class="review-card__comment">“${safeComment}”</p>
+        <div class="review-card__details">
+          <span>Atendimento <b>${review.service_rating}/5</b></span>
+          <span>Ambiente <b>${review.environment_rating}/5</b></span>
+          <span>Qualidade <b>${review.quality_rating}/5</b></span>
+        </div>
+      </article>
+    `;
+  }).join("");
+}
+
+function escapeHtml(value) {
+  return String(value)
+    .replaceAll("&", "&amp;")
+    .replaceAll("<", "&lt;")
+    .replaceAll(">", "&gt;")
+    .replaceAll('"', "&quot;")
+    .replaceAll("'", "&#039;");
+}
+
+async function loadReviews(client) {
+  const status = document.getElementById("reviewsStatus");
+  if (status) status.textContent = "Carregando avaliações...";
+
+  const { data, error } = await client
+    .from("reviews")
+    .select("id,name,service_rating,environment_rating,quality_rating,comment,created_at")
+    .eq("approved", true)
+    .order("created_at", { ascending: false })
+    .limit(50);
+
+  if (error) {
+    console.error("Erro ao carregar avaliações:", error);
+    if (status) status.textContent = "Não foi possível carregar as avaliações";
+    return;
+  }
+
+  renderReviews(data || []);
+}
+
+function initReviewForm() {
+  const form = document.getElementById("reviewForm");
+  if (!form) return;
+
+  const note = document.getElementById("reviewFormNote");
+  const submitButton = document.getElementById("reviewSubmit");
+
+  if (!isSupabaseConfigured() || !window.supabase) {
+    if (note) note.textContent = "O sistema online ainda precisa ser conectado ao banco de avaliações. Veja o arquivo CONFIGURAR-AVALIACOES.md deste pacote.";
+    if (submitButton) submitButton.disabled = true;
+    const status = document.getElementById("reviewsStatus");
+    if (status) status.textContent = "Banco de avaliações ainda não configurado";
+    return;
+  }
+
+  const client = window.supabase.createClient(
+    window.BRAGA_SUPABASE.url,
+    window.BRAGA_SUPABASE.anonKey
+  );
+
+  loadReviews(client);
+
+  form.addEventListener("submit", async (event) => {
+    event.preventDefault();
+
+    const name = document.getElementById("reviewName").value.trim();
+    const service = Number(document.getElementById("reviewService").value);
+    const environment = Number(document.getElementById("reviewEnvironment").value);
+    const quality = Number(document.getElementById("reviewQuality").value);
+    const comment = document.getElementById("reviewComment").value.trim();
+
+    if (name.length < 2 || name.length > 60 || comment.length < 5 || comment.length > 1000) {
+      if (note) note.textContent = "Confira o nome e o comentário antes de enviar.";
+      return;
+    }
+
+    if (![service, environment, quality].every((value) => value >= 1 && value <= 5)) {
+      if (note) note.textContent = "Selecione uma nota de 1 a 5 para os três critérios.";
+      return;
+    }
+
+    submitButton.disabled = true;
+    submitButton.textContent = "Publicando...";
+    if (note) note.textContent = "Enviando sua avaliação...";
+
+    const { error } = await client.from("reviews").insert({
+      name,
+      service_rating: service,
+      environment_rating: environment,
+      quality_rating: quality,
+      comment,
+      approved: true
+    });
+
+    if (error) {
+      console.error("Erro ao publicar avaliação:", error);
+      submitButton.disabled = false;
+      submitButton.textContent = "Publicar avaliação";
+      if (note) note.textContent = "Não foi possível publicar agora. Tente novamente em alguns instantes.";
+      return;
+    }
+
+    form.reset();
+    submitButton.disabled = false;
+    submitButton.textContent = "Publicar avaliação";
+    if (note) note.textContent = "Obrigado! Sua avaliação foi publicada no site. 💈";
+    await loadReviews(client);
+  });
+}
+
+/* ---------------------------------------------------------
    Init
    --------------------------------------------------------- */
 document.addEventListener("DOMContentLoaded", () => {
@@ -278,5 +547,6 @@ document.addEventListener("DOMContentLoaded", () => {
   renderProducts();
   initNav();
   initReveal();
+  initReviewForm();
   document.getElementById("year").textContent = new Date().getFullYear();
 });
