@@ -825,3 +825,116 @@ section { padding: 5.5rem 0; }
   .review-card__top { flex-direction: column; }
   .review-card__rating { text-align: left; }
 }
+
+
+/* =========================================================
+   CORREÇÃO RESPONSIVA — PRODUTOS
+   ========================================================= */
+
+/* O #productsGrid contém as categorias.
+   As colunas devem ficar dentro de cada categoria. */
+#productsGrid.products__grid {
+  display: block;
+}
+
+.products__category {
+  width: 100%;
+}
+
+.products__category-grid {
+  grid-template-columns: repeat(4, minmax(0, 1fr));
+  gap: 1.3rem;
+}
+
+.product-card {
+  min-width: 0;
+}
+
+.product-card__photo {
+  width: 100%;
+}
+
+.product-card__body {
+  min-width: 0;
+}
+
+.product-card__name,
+.product-card__desc {
+  overflow-wrap: anywhere;
+}
+
+/* Computadores menores / notebooks */
+@media (max-width: 1100px) {
+  .products__category-grid {
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+  }
+}
+
+/* Tablets e celulares maiores */
+@media (max-width: 760px) {
+  .products__category {
+    padding-left: 1rem;
+    padding-right: 1rem;
+  }
+
+  .products__category-grid {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    gap: 0.85rem;
+  }
+
+  .product-card__body {
+    padding: 0.9rem 0.85rem 1rem;
+  }
+
+  .product-card__name {
+    font-size: 0.92rem;
+    line-height: 1.35;
+  }
+
+  .product-card__vol {
+    font-size: 0.72rem;
+  }
+
+  .product-card__desc {
+    font-size: 0.78rem;
+    line-height: 1.5;
+  }
+
+  .product-card__price {
+    font-size: 1rem;
+    margin-bottom: 0.55rem;
+  }
+
+  .product-card .btn--small {
+    padding: 0.58rem 0.55rem;
+    font-size: 0.72rem;
+  }
+
+  .products__category-head {
+    margin-bottom: 0.85rem;
+  }
+}
+
+/* Celulares estreitos */
+@media (max-width: 390px) {
+  .products__category-grid {
+    gap: 0.7rem;
+  }
+
+  .product-card__body {
+    padding: 0.8rem 0.72rem 0.9rem;
+  }
+
+  .product-card__name {
+    font-size: 0.86rem;
+  }
+
+  .product-card__desc {
+    font-size: 0.74rem;
+  }
+
+  .product-card .btn--small {
+    font-size: 0.68rem;
+    padding: 0.55rem 0.4rem;
+  }
+}
