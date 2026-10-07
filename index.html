@@ -264,5 +264,45 @@
 <script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2"></script>
 <script src="supabase-config.js"></script>
 <script src="script.js"></script>
+  
+  <script>
+(function () {
+  const imagensServicos = [
+    "assets/corte-cabelo.jpg",
+    "assets/barba.jpg",
+    "assets/corte-barba.jpg",
+    "assets/pai-filho.jpg"
+  ];
+
+  function atualizarImagensServicos() {
+    const grid = document.getElementById("servicesGrid");
+    if (!grid) return;
+
+    const imagens = grid.querySelectorAll("img");
+
+    imagensServicos.forEach((src, index) => {
+      if (imagens[index]) {
+        imagens[index].src = src;
+        imagens[index].removeAttribute("srcset");
+      }
+    });
+  }
+
+  atualizarImagensServicos();
+
+  const grid = document.getElementById("servicesGrid");
+
+  if (grid) {
+    const observer = new MutationObserver(() => {
+      atualizarImagensServicos();
+    });
+
+    observer.observe(grid, {
+      childList: true,
+      subtree: true
+    });
+  }
+})();
+  </script>
 </body>
 </html>
