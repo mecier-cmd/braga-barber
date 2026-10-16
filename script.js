@@ -5,7 +5,7 @@
    ========================================================= */
 
 const WHATSAPP_NUMBER = "5534998173443"; // (34) 99817-3443
-const WA_BOOKING_MSG = "Olá! Gostaria de agendar um horário na Braga Barber.";
+const WA_BOOKING_MSG = "Olá! Gostaria de agendar um horário com o Braga Barber.";
 
 const ICONS = {
   scissors: `<svg viewBox="0 0 24 24" width="20" height="20"><path fill="currentColor" d="M9.64 4.6a2.5 2.5 0 1 0-2.5 2.5c.3 0 .58-.05.85-.14L9.3 8.27 6.7 10.87l1.41 1.41 2.6-2.6 4.83 4.83a2.5 2.5 0 1 0 1.41-1.41l-1.6-1.6 2.1-2.1a2.48 2.48 0 0 0 .85.14 2.5 2.5 0 1 0-2.5-2.5c0 .3.05.58.14.85L13.3 9.83l-2.1-2.1c.09-.27.14-.55.14-.85 0-.1-.01-.19-.02-.28zM7.14 5.6a1 1 0 1 1 0-2 1 1 0 0 1 0 2zm9.72 0a1 1 0 1 1 0-2 1 1 0 0 1 0 2zm0 13.8a1 1 0 1 1 0-2 1 1 0 0 1 0 2zM5 18a2 2 0 1 0 4.8 1.6L12 17.4l-1.4-1.4-2.2 2.2A2 2 0 0 0 5 18z"/></svg>`,
@@ -25,14 +25,14 @@ const SERVICES = [
     name: "Corte",
     desc: "Corte de cabelo para homem, mulher ou criança.",
     price: 55.0,
-    img: "assets/ia-service-1.jpg",
+    img: "assets/corte-cabelo.jpg",
   },
   {
     icon: "combo",
     name: "Corte + Barba",
     desc: "Combo completo de corte e barba no mesmo atendimento.",
     price: 100.0,
-    img: "assets/ia-service-2.jpg",
+    img: "assets/barba.jpg",
   },
   {
     icon: "star",
@@ -40,7 +40,7 @@ const SERVICES = [
     badge: "Terça-feira",
     desc: "Promoção especial de terça-feira.",
     price: 80.0,
-    img: "assets/ia-service-3.jpg",
+    img: "assets/corte-barba.jpg",
   },
   {
     icon: "family",
@@ -50,7 +50,7 @@ const SERVICES = [
     price: 45.0,
     old: 55.0,
     priceNote: "por corte",
-    img: "assets/ia-service-4.jpg",
+    img: "assets/pai-filho.jpg",
   },
 ];
 
